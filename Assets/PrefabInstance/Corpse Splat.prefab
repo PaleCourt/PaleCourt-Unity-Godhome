@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1455207003752898}
+  m_IsPrefabParent: 1
+--- !u!1 &1455207003752898
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4392572678999498}
+  m_Layer: 0
+  m_Name: Corpse Splat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4392572678999498
+Transform:
+  m_GameObject: {fileID: 1455207003752898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 164.2436, y: 208.5043, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4064673908928842}
+  - {fileID: 4164077333264642}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1034799780983861
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4064673908928842}
+  - component: {fileID: 33062782609189967}
+  - component: {fileID: 23185963197698697}
+  - component: {fileID: 114228973738947385}
+  - component: {fileID: 114434592607244808}
+  - component: {fileID: 114077470978286550}
+  m_Layer: 0
+  m_Name: Splat Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4064673908928842
+Transform:
+  m_GameObject: {fileID: 1034799780983861}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1, y: -0.8, z: -0.001}
+  m_LocalScale: {x: 1.85, y: 1.85, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4392572678999498}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33062782609189967
+MeshFilter:
+  m_GameObject: {fileID: 1034799780983861}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23185963197698697
+MeshRenderer:
+  m_GameObject: {fileID: 1034799780983861}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 88b012138028f1d4a80111a650942dd2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114228973738947385
+MonoBehaviour:
+  m_GameObject: {fileID: 1034799780983861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aefd5332b18a634584f09421e389da4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  collection: {fileID: 114223716564209599, guid: b0252f67068c17f47ac17957909cd737, type: 2}
+  _color: {r: 1, g: 0.6, b: 0, a: 1}
+  _scale: {x: 1, y: 1, z: 1}
+  _spriteId: 76
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  renderLayer: 0
+--- !u!114 &114434592607244808
+MonoBehaviour:
+  m_GameObject: {fileID: 1034799780983861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101f28405aab3af4dad3a17498b7b5ed, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  library: {fileID: 114118212680726981, guid: 63fed22a2d530294083f98f84ea7988b, type: 2}
+  defaultClipId: 7
+  playAutomatically: 1
+--- !u!114 &114077470978286550
+MonoBehaviour:
+  m_GameObject: {fileID: 1034799780983861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc59023512f5d374d8689a2eec529112, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spriteAnimator: {fileID: 114434592607244808}
+--- !u!1 &1444592362755810
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4164077333264642}
+  - component: {fileID: 33422270078865047}
+  - component: {fileID: 23534558887304504}
+  - component: {fileID: 114200361580115060}
+  - component: {fileID: 114146067077783139}
+  - component: {fileID: 114926415801553972}
+  m_Layer: 13
+  m_Name: Spit Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4164077333264642
+Transform:
+  m_GameObject: {fileID: 1444592362755810}
+  m_LocalRotation: {x: 0, y: 0, z: -0.704019, w: 0.7101812}
+  m_LocalPosition: {x: 0.152771, y: 1.99263, z: 0.51}
+  m_LocalScale: {x: 1.48258, y: 1.482579, z: 1.482579}
+  m_Children: []
+  m_Father: {fileID: 4392572678999498}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.50069}
+--- !u!33 &33422270078865047
+MeshFilter:
+  m_GameObject: {fileID: 1444592362755810}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23534558887304504
+MeshRenderer:
+  m_GameObject: {fileID: 1444592362755810}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 88b012138028f1d4a80111a650942dd2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114200361580115060
+MonoBehaviour:
+  m_GameObject: {fileID: 1444592362755810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aefd5332b18a634584f09421e389da4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  collection: {fileID: 114223716564209599, guid: b0252f67068c17f47ac17957909cd737, type: 2}
+  _color: {r: 1, g: 0.5586206, b: 0, a: 1}
+  _scale: {x: 0.7349143, y: 1.700686, z: 1}
+  _spriteId: 113
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  renderLayer: 0
+--- !u!114 &114146067077783139
+MonoBehaviour:
+  m_GameObject: {fileID: 1444592362755810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101f28405aab3af4dad3a17498b7b5ed, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  library: {fileID: 114118212680726981, guid: 63fed22a2d530294083f98f84ea7988b, type: 2}
+  defaultClipId: 15
+  playAutomatically: 1
+--- !u!114 &114926415801553972
+MonoBehaviour:
+  m_GameObject: {fileID: 1444592362755810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc59023512f5d374d8689a2eec529112, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spriteAnimator: {fileID: 114146067077783139}

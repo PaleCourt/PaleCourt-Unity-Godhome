@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1930854007805368}
+  m_IsPrefabParent: 1
+--- !u!1 &1930854007805368
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4886100088951816}
+  - component: {fileID: 33352160161317996}
+  - component: {fileID: 23410583689813056}
+  - component: {fileID: 114828808626433922}
+  - component: {fileID: 114789107401275345}
+  - component: {fileID: 114824080145509165}
+  - component: {fileID: 114206008582016853}
+  m_Layer: 0
+  m_Name: Nail Clash Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4886100088951816
+Transform:
+  m_GameObject: {fileID: 1930854007805368}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.98645, y: 6.383629, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33352160161317996
+MeshFilter:
+  m_GameObject: {fileID: 1930854007805368}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23410583689813056
+MeshRenderer:
+  m_GameObject: {fileID: 1930854007805368}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 88b012138028f1d4a80111a650942dd2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -349214895
+  m_SortingLayer: 12
+  m_SortingOrder: 0
+--- !u!114 &114828808626433922
+MonoBehaviour:
+  m_GameObject: {fileID: 1930854007805368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aefd5332b18a634584f09421e389da4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  collection: {fileID: 114223716564209599, guid: b0252f67068c17f47ac17957909cd737, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 1.2, y: 1.2, z: 1}
+  _spriteId: 117
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  renderLayer: 0
+--- !u!114 &114789107401275345
+MonoBehaviour:
+  m_GameObject: {fileID: 1930854007805368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101f28405aab3af4dad3a17498b7b5ed, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  library: {fileID: 114118212680726981, guid: 63fed22a2d530294083f98f84ea7988b, type: 2}
+  defaultClipId: 18
+  playAutomatically: 1
+--- !u!114 &114824080145509165
+MonoBehaviour:
+  m_GameObject: {fileID: 1930854007805368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0707e89397b3a4eb3c9bc269092b2d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114206008582016853
+MonoBehaviour:
+  m_GameObject: {fileID: 1930854007805368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b11bfb7b970d0e24b82c4d3ca6dee004, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spriteAnimator: {fileID: 114789107401275345}
+  randomiseRotation: 0

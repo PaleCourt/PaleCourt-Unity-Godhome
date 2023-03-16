@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scene/gg dryya.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

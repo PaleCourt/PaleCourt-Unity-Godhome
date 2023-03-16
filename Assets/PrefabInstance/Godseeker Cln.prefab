@@ -1,0 +1,1198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1055153688661575}
+  m_IsPrefabParent: 1
+--- !u!1 &1055153688661575
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4920511391444610}
+  - component: {fileID: 114694811693806391}
+  m_Layer: 0
+  m_Name: Godseeker Cln
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4920511391444610
+Transform:
+  m_GameObject: {fileID: 1055153688661575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114694811693806391
+MonoBehaviour:
+  m_GameObject: {fileID: 1055153688661575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4655f8003eeb7e438cc3165668e12f9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Godseeker_watch0007
+    boundsData:
+    - {x: -0.125, y: -0.03906238, z: 0}
+    - {x: 2, y: 5.859375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: 0, z: 0}
+    - {x: 2.484375, y: 6.21875, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.125, y: -2.96875, z: 0}
+    - {x: 0.875, y: -2.96875, z: 0}
+    - {x: -1.125, y: 2.890625, z: 0}
+    - {x: 0.875, y: 2.890625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.6191411}
+    - {x: 0.001954101, y: 0.6816401}
+    - {x: 0.3681631, y: 0.6191411}
+    - {x: 0.3681631, y: 0.6816401}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 122a8c453562dda43960263f321b2743
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_watch0006
+    boundsData:
+    - {x: -0.07812503, y: -0.046875, z: 0}
+    - {x: 2, y: 5.84375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: 0, z: 0}
+    - {x: 2.484375, y: 6.21875, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.078125, y: -2.96875, z: 0}
+    - {x: 0.9218749, y: -2.96875, z: 0}
+    - {x: -1.078125, y: 2.875, z: 0}
+    - {x: 0.9218749, y: 2.875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.6835942}
+    - {x: 0.001954101, y: 0.7460933}
+    - {x: 0.3671865, y: 0.6835942}
+    - {x: 0.3671865, y: 0.7460933}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 20e9b3831085b954798721a97ee35c9a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_watch0004
+    boundsData:
+    - {x: 0, y: -0.0546875, z: 0}
+    - {x: 2.0625, y: 5.828125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: 0, z: 0}
+    - {x: 2.484375, y: 6.21875, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.03125, y: -2.96875, z: 0}
+    - {x: 1.03125, y: -2.96875, z: 0}
+    - {x: -1.03125, y: 2.859375, z: 0}
+    - {x: 1.03125, y: 2.859375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8007822, y: 0.5244145}
+    - {x: 0.9296865, y: 0.5244145}
+    - {x: 0.8007822, y: 0.7065425}
+    - {x: 0.9296865, y: 0.7065425}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2404173b240a5944eaf56512b0b97155
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_watch0003
+    boundsData:
+    - {x: 0.015625, y: -0.03906238, z: 0}
+    - {x: 2.03125, y: 5.859375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: 0, z: 0}
+    - {x: 2.484375, y: 6.21875, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1, y: -2.96875, z: 0}
+    - {x: 1.03125, y: -2.96875, z: 0}
+    - {x: -1, y: 2.890625, z: 0}
+    - {x: 1.03125, y: 2.890625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.5537114}
+    - {x: 0.001954101, y: 0.617187}
+    - {x: 0.3681631, y: 0.5537114}
+    - {x: 0.3681631, y: 0.617187}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: fe74e99f721012b46993f9a5d389a738
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_young_stand0001
+    boundsData:
+    - {x: -0.1328124, y: -0.0859375, z: 0}
+    - {x: 2.484375, y: 7.015625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.375, y: -3.59375, z: 0}
+    - {x: 1.109375, y: -3.59375, z: 0}
+    - {x: -1.375, y: 3.421875, z: 0}
+    - {x: 1.109375, y: 3.421875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4472666, y: 0.0009770507}
+    - {x: 0.4472666, y: 0.07861279}
+    - {x: 0.8857412, y: 0.0009770507}
+    - {x: 0.8857412, y: 0.07861279}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: d6fe6801bbfb7c847bb49b7aaaa7e028
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_watch0005
+    boundsData:
+    - {x: -0.015625, y: -0.046875, z: 0}
+    - {x: 2.03125, y: 5.84375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: 0, z: 0}
+    - {x: 2.484375, y: 6.21875, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.03125, y: -2.96875, z: 0}
+    - {x: 1, y: -2.96875, z: 0}
+    - {x: -1.03125, y: 2.875, z: 0}
+    - {x: 1, y: 2.875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3720713, y: 0.5576177}
+    - {x: 0.3720713, y: 0.6210933}
+    - {x: 0.7373037, y: 0.5576177}
+    - {x: 0.7373037, y: 0.6210933}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0653f7a636353c142b66d32914588241
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_young_stand0000
+    boundsData:
+    - {x: -0.0390625, y: -0.08593762, z: 0}
+    - {x: 2.421875, y: 7.046875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.25, y: -3.609375, z: 0}
+    - {x: 1.171875, y: -3.609375, z: 0}
+    - {x: -1.25, y: 3.4375, z: 0}
+    - {x: 1.171875, y: 3.4375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.44629, y: 0.0805669}
+    - {x: 0.44629, y: 0.1562495}
+    - {x: 0.8867178, y: 0.0805669}
+    - {x: 0.8867178, y: 0.1562495}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3b630d190fdb3814fbd843947f36622d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_watch0002
+    boundsData:
+    - {x: 0.015625, y: -0.03906238, z: 0}
+    - {x: 2, y: 5.859375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: 0, z: 0}
+    - {x: 2.484375, y: 6.21875, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -0.984375, y: -2.96875, z: 0}
+    - {x: 1.015625, y: -2.96875, z: 0}
+    - {x: -0.984375, y: 2.890625, z: 0}
+    - {x: 1.015625, y: 2.890625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3720713, y: 0.6230474}
+    - {x: 0.3720713, y: 0.6855464}
+    - {x: 0.7382803, y: 0.6230474}
+    - {x: 0.7382803, y: 0.6855464}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1cf4925d1dfb9cf4598ec9b7390980cf
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_young_stand0002
+    boundsData:
+    - {x: -0.28125, y: -0.078125, z: 0}
+    - {x: 2.46875, y: 7.0625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.515625, y: -3.609375, z: 0}
+    - {x: 0.9531249, y: -3.609375, z: 0}
+    - {x: -1.515625, y: 3.453125, z: 0}
+    - {x: 0.9531249, y: 3.453125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.0009770507}
+    - {x: 0.001954101, y: 0.07812451}
+    - {x: 0.4433584, y: 0.0009770507}
+    - {x: 0.4433584, y: 0.07812451}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: f024435173a87b14a914a80ad3396d2a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_young_stand0003
+    boundsData:
+    - {x: -0.3515624, y: -0.08593762, z: 0}
+    - {x: 2.421875, y: 7.046875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.5625, y: -3.609375, z: 0}
+    - {x: 0.8593751, y: -3.609375, z: 0}
+    - {x: -1.5625, y: 3.4375, z: 0}
+    - {x: 0.8593751, y: 3.4375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.1582036}
+    - {x: 0.001954101, y: 0.2338862}
+    - {x: 0.4423818, y: 0.1582036}
+    - {x: 0.4423818, y: 0.2338862}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4fb93d6a9684c594195857a1e2dace37
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_young_stand_back
+    boundsData:
+    - {x: -0.0390625, y: -0.08593762, z: 0}
+    - {x: 2.421875, y: 7.046875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.25, y: -3.609375, z: 0}
+    - {x: 1.171875, y: -3.609375, z: 0}
+    - {x: -1.25, y: 3.4375, z: 0}
+    - {x: 1.171875, y: 3.4375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.44629, y: 0.1582036}
+    - {x: 0.44629, y: 0.2338862}
+    - {x: 0.8867178, y: 0.1582036}
+    - {x: 0.8867178, y: 0.2338862}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1f7150ba46f8a8c4db334beaa3b06187
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_lookup0000
+    boundsData:
+    - {x: 0.0078125, y: -0.2421874, z: 0}
+    - {x: 2.078125, y: 5.453125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: 0, z: 0}
+    - {x: 2.484375, y: 6.21875, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.03125, y: -2.96875, z: 0}
+    - {x: 1.046875, y: -2.96875, z: 0}
+    - {x: -1.03125, y: 2.484375, z: 0}
+    - {x: 1.046875, y: 2.484375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3710947, y: 0.6875005}
+    - {x: 0.3710947, y: 0.7524409}
+    - {x: 0.7119131, y: 0.6875005}
+    - {x: 0.7119131, y: 0.7524409}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6d79f0b77ca444a4c8abf7446c853dd6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_lookup0002
+    boundsData:
+    - {x: 0.0078125, y: -0.3359375, z: 0}
+    - {x: 2.078125, y: 5.265625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: 0, z: 0}
+    - {x: 2.484375, y: 6.21875, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.03125, y: -2.96875, z: 0}
+    - {x: 1.046875, y: -2.96875, z: 0}
+    - {x: -1.03125, y: 2.296875, z: 0}
+    - {x: 1.046875, y: 2.296875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8496103, y: 0.7084966}
+    - {x: 0.9794912, y: 0.7084966}
+    - {x: 0.8496103, y: 0.8730464}
+    - {x: 0.9794912, y: 0.8730464}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8547b16efd4b4554db87f4c5a499ce29
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_lookup0001
+    boundsData:
+    - {x: 0.0078125, y: -0.3125001, z: 0}
+    - {x: 2.078125, y: 5.3125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: 0, z: 0}
+    - {x: 2.484375, y: 6.21875, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.03125, y: -2.96875, z: 0}
+    - {x: 1.046875, y: -2.96875, z: 0}
+    - {x: -1.03125, y: 2.34375, z: 0}
+    - {x: 1.046875, y: 2.34375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7158213, y: 0.7084966}
+    - {x: 0.8457022, y: 0.7084966}
+    - {x: 0.7158213, y: 0.8745112}
+    - {x: 0.8457022, y: 0.8745112}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 37223908e8075cc468e60c420b9bd753
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_stand_look_up0002
+    boundsData:
+    - {x: 0.1171876, y: -0.265625, z: 0}
+    - {x: 2.421875, y: 6.6875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.09375, y: -3.609375, z: 0}
+    - {x: 1.328125, y: -3.609375, z: 0}
+    - {x: -1.09375, y: 3.078125, z: 0}
+    - {x: 1.328125, y: 3.078125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8457041, y: 0.313477}
+    - {x: 0.9970694, y: 0.313477}
+    - {x: 0.8457041, y: 0.5224605}
+    - {x: 0.9970694, y: 0.5224605}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: d496fea0cbd66744595eaa2564ee5e84
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_stand_look_up0001
+    boundsData:
+    - {x: 0.2343749, y: -0.4296876, z: 0}
+    - {x: 2.53125, y: 6.359375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.03125, y: -3.609375, z: 0}
+    - {x: 1.5, y: -3.609375, z: 0}
+    - {x: -1.03125, y: 2.75, z: 0}
+    - {x: 1.5, y: 2.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4023447, y: 0.3955083}
+    - {x: 0.4023447, y: 0.4746089}
+    - {x: 0.7998037, y: 0.3955083}
+    - {x: 0.7998037, y: 0.4746089}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 76988a286b8227640b7ccea26b93fa49
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_stand_look_up0000
+    boundsData:
+    - {x: 0.2343749, y: -0.4453126, z: 0}
+    - {x: 2.53125, y: 6.328125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.03125, y: -3.609375, z: 0}
+    - {x: 1.5, y: -3.609375, z: 0}
+    - {x: -1.03125, y: 2.71875, z: 0}
+    - {x: 1.5, y: 2.71875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.4726567}
+    - {x: 0.001954101, y: 0.5517573}
+    - {x: 0.39746, y: 0.4726567}
+    - {x: 0.39746, y: 0.5517573}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3c700f3d02740744ab17a38fe18efa05
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_stand_look_up0003
+    boundsData:
+    - {x: -0.0859375, y: -0.08593762, z: 0}
+    - {x: 2.421875, y: 7.046875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.296875, y: -3.609375, z: 0}
+    - {x: 1.125, y: -3.609375, z: 0}
+    - {x: -1.296875, y: 3.4375, z: 0}
+    - {x: 1.125, y: 3.4375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.2358403}
+    - {x: 0.001954101, y: 0.311523}
+    - {x: 0.4423818, y: 0.2358403}
+    - {x: 0.4423818, y: 0.311523}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: dfbf493e3ea35f24a9be05d9de942aeb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_sing0002
+    boundsData:
+    - {x: 0.2656251, y: -0.4453126, z: 0}
+    - {x: 2.5625, y: 6.328125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.015625, y: -3.609375, z: 0}
+    - {x: 1.546875, y: -3.609375, z: 0}
+    - {x: -1.015625, y: 2.71875, z: 0}
+    - {x: 1.546875, y: 2.71875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.44629, y: 0.313477}
+    - {x: 0.44629, y: 0.3935542}
+    - {x: 0.8417959, y: 0.313477}
+    - {x: 0.8417959, y: 0.3935542}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0978513eb2da09e4693ad8fd9d80046d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_sing0000
+    boundsData:
+    - {x: 0.2265624, y: -0.4375, z: 0}
+    - {x: 2.546875, y: 6.34375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.046875, y: -3.609375, z: 0}
+    - {x: 1.5, y: -3.609375, z: 0}
+    - {x: -1.046875, y: 2.734375, z: 0}
+    - {x: 1.5, y: 2.734375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.3911138}
+    - {x: 0.001954101, y: 0.4707026}
+    - {x: 0.3984365, y: 0.3911138}
+    - {x: 0.3984365, y: 0.4707026}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1c6a57e508847aa4db15a487a24df7ec
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_sing0001
+    boundsData:
+    - {x: 0.2343749, y: -0.4453126, z: 0}
+    - {x: 2.53125, y: 6.328125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.03125, y: -3.609375, z: 0}
+    - {x: 1.5, y: -3.609375, z: 0}
+    - {x: -1.03125, y: 2.71875, z: 0}
+    - {x: 1.5, y: 2.71875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4013682, y: 0.476563}
+    - {x: 0.4013682, y: 0.5556636}
+    - {x: 0.796874, y: 0.476563}
+    - {x: 0.796874, y: 0.5556636}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: c53b51e2ca75f8b418f86b7c80138f94
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_sing_back0000
+    boundsData:
+    - {x: -0.02343744, y: -0.08593762, z: 0}
+    - {x: 2.421875, y: 7.046875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.234375, y: -3.609375, z: 0}
+    - {x: 1.1875, y: -3.609375, z: 0}
+    - {x: -1.234375, y: 3.4375, z: 0}
+    - {x: 1.1875, y: 3.4375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.44629, y: 0.2358403}
+    - {x: 0.44629, y: 0.311523}
+    - {x: 0.8867178, y: 0.2358403}
+    - {x: 0.8867178, y: 0.311523}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3645c7344324e8141aaa58d6a1111ae5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_sing_back0001
+    boundsData:
+    - {x: -0.02343744, y: -0.08593762, z: 0}
+    - {x: 2.421875, y: 7.046875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.234375, y: -3.609375, z: 0}
+    - {x: 1.1875, y: -3.609375, z: 0}
+    - {x: -1.234375, y: 3.4375, z: 0}
+    - {x: 1.1875, y: 3.4375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.313477}
+    - {x: 0.001954101, y: 0.3891597}
+    - {x: 0.4423818, y: 0.313477}
+    - {x: 0.4423818, y: 0.3891597}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: d54753e73b756974da6195d2a96abb3b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Godseeker_sing_back0002
+    boundsData:
+    - {x: -0.03124994, y: -0.08593762, z: 0}
+    - {x: 2.4375, y: 7.046875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0078125, y: -0.0078125, z: 0}
+    - {x: 3.828125, y: 7.484375, z: 0}
+    texelSize: {x: 0.015625, y: 0.015625}
+    positions:
+    - {x: -1.25, y: -3.609375, z: 0}
+    - {x: 1.1875, y: -3.609375, z: 0}
+    - {x: -1.25, y: 3.4375, z: 0}
+    - {x: 1.1875, y: 3.4375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.08007862}
+    - {x: 0.001954101, y: 0.1562495}
+    - {x: 0.4423818, y: 0.08007862}
+    - {x: 0.4423818, y: 0.1562495}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+    materialId: 0
+    sourceTextureGUID: 76b8f143a7183264fbe83b85922084bb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 7e5f2102d0889ad40896b58fc15a2881, type: 2}
+  textures:
+  - {fileID: 2800000, guid: d14cf90b9ecb16147bcfad0cf260f5a9, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 2c88d53c5a1a02a42ab7aef989e66584
+  spriteCollectionName: Godseeker Cln
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 32
+  buildKey: 935356476
+  dataGuid: 5a4dfffa106b74347bf76462f4e10348
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

@@ -1,0 +1,11 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_Name: GreenGrass2
+  m_Controller: {fileID: 9100000, guid: 62424e3a08224ce4598f376caa8397ac, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 23b795f8f8fd60c40ab542d8c4751518, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: aad0202b2853ca149b1d49e0b4d53d9c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 70120bb86833ddc4f8585a2e0d95f046, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 500fd4dd4ed571c43a1744b744c94f21, type: 2}

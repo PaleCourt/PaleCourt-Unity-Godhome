@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1301761282962024}
+  m_IsPrefabParent: 1
+--- !u!1 &1301761282962024
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4812924096334842}
+  - component: {fileID: 33199583724491422}
+  - component: {fileID: 23668019900125385}
+  - component: {fileID: 114628318873387616}
+  - component: {fileID: 114139718637885467}
+  - component: {fileID: 114295004134443424}
+  - component: {fileID: 114978297732161881}
+  - component: {fileID: 114530530728825349}
+  m_Layer: 0
+  m_Name: Dream Impact
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4812924096334842
+Transform:
+  m_GameObject: {fileID: 1301761282962024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.17478, y: 6.769238, z: 0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33199583724491422
+MeshFilter:
+  m_GameObject: {fileID: 1301761282962024}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23668019900125385
+MeshRenderer:
+  m_GameObject: {fileID: 1301761282962024}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dff3aaf11a000af4c9648233dbd1f279, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -349214895
+  m_SortingLayer: 12
+  m_SortingOrder: 0
+--- !u!114 &114628318873387616
+MonoBehaviour:
+  m_GameObject: {fileID: 1301761282962024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aefd5332b18a634584f09421e389da4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  collection: {fileID: 114133246940513824, guid: de531880fd378644894fe6258d65224c, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 1, y: 1, z: 1}
+  _spriteId: 49
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  renderLayer: 0
+--- !u!114 &114139718637885467
+MonoBehaviour:
+  m_GameObject: {fileID: 1301761282962024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101f28405aab3af4dad3a17498b7b5ed, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  library: {fileID: 114257892560747041, guid: bbfb932167a65dd4aa99ac1525cc3dbd, type: 2}
+  defaultClipId: 0
+  playAutomatically: 1
+--- !u!114 &114295004134443424
+MonoBehaviour:
+  m_GameObject: {fileID: 1301761282962024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b11bfb7b970d0e24b82c4d3ca6dee004, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spriteAnimator: {fileID: 114139718637885467}
+  randomiseRotation: 0
+--- !u!114 &114978297732161881
+MonoBehaviour:
+  m_GameObject: {fileID: 1301761282962024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb7ffd51fa8aa94ab07d66539c27af6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  minScale: 6
+  maxScale: 8
+  scaleOnEnable: 1
+--- !u!114 &114530530728825349
+MonoBehaviour:
+  m_GameObject: {fileID: 1301761282962024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac3add9d5606ab499be9f02d75dee42, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  min: -5
+  max: 5

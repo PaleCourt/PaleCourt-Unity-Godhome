@@ -1,0 +1,510 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - AssetBundleBrowser.AssetBundleBrowserMain
+    Assembly-CSharp.dll:
+    - ActionButtonIcon
+    - ActiveRecycler
+    - AlertRange
+    - AtmosCue
+    - AutoRecycleSelf
+    - BlurPlane
+    - BossSceneController
+    - Breakable
+    - CameraLockArea
+    - ChangeFontByLanguage
+    - ConveyorMovement
+    - DamageHero
+    - DeactivateAfter2dtkAnimation
+    - EnemyDeathEffects
+    - EnemyHitEffectsShade
+    - EventRegister
+    - FaceAngleSimple
+    - FadeGroup
+    - FsmTemplate
+    - GamepadVibration
+    - GeoControl
+    - HazardRespawnMarker
+    - HealthManager
+    - KeepWorldScalePositive
+    - LineOfSightDetector
+    - MusicCue
+    - MusicRegion
+    - NonBouncer
+    - NonSlider
+    - NonThunker
+    - ObjectBounce
+    - ParticleSystemAutoRecycle
+    - PersistentBoolItem
+    - PersonalObjectPool
+    - PlayAudioAndRecycle
+    - PlayFromRandomFrameMecanim
+    - PlayMakerCollisionEnter2D
+    - PlayMakerCollisionExit2D
+    - PlayMakerCollisionStay2D
+    - PlayMakerFSM
+    - PlayMakerFixedUpdate
+    - PlayMakerTriggerEnter2D
+    - PlayMakerTriggerExit2D
+    - PlayMakerTriggerStay
+    - PlayMakerTriggerStay2D
+    - PlayMakerUnity2DProxy
+    - PlayMakerUnity2d
+    - RandomAudioClipTable
+    - RandomRotationRange
+    - RandomScale
+    - Recoil
+    - RecycleAfter2dtkAnimation
+    - ReduceParticleEffects
+    - Roof
+    - SceneManager
+    - SetParticleScale
+    - SetTextMeshProGameText
+    - SetZ
+    - SetZRandom
+    - SimpleSpriteFade
+    - SpatterOrange
+    - SpinSelf
+    - SpriteFlash
+    - SpriteTweenColorNeutral
+    - TMPro.TMP_FontAsset
+    - TMPro.TextContainer
+    - TMPro.TextMeshPro
+    - TinkEffect
+    - TransitionPoint
+    - VibrationPlayer
+    - WaveEffectControl
+    - tk2dSprite
+    - tk2dSpriteAnimation
+    - tk2dSpriteAnimator
+    - tk2dSpriteCollectionData
+    - tk2dTileMap
+    - tk2dTileMapData
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.RiderScriptEditorData
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+  sceneClasses:
+    Assets/Scene/gg zemer.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 62
+      Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1464}
+    - Class: 114
+      Script: {instanceID: 1676}
+    - Class: 114
+      Script: {instanceID: 1974}
+    - Class: 114
+      Script: {instanceID: 2084}
+    - Class: 114
+      Script: {instanceID: 2130}
+    - Class: 114
+      Script: {instanceID: 2180}
+    - Class: 114
+      Script: {instanceID: 2258}
+    - Class: 114
+      Script: {instanceID: 2362}
+    - Class: 114
+      Script: {instanceID: 2386}
+    - Class: 114
+      Script: {instanceID: 2508}
+    - Class: 114
+      Script: {instanceID: 2542}
+    - Class: 114
+      Script: {instanceID: 2646}
+    - Class: 114
+      Script: {instanceID: 2806}
+    - Class: 114
+      Script: {instanceID: 2884}
+    - Class: 114
+      Script: {instanceID: 2960}
+    - Class: 114
+      Script: {instanceID: 3020}
+    - Class: 114
+      Script: {instanceID: 3084}
+    - Class: 114
+      Script: {instanceID: 3330}
+    - Class: 114
+      Script: {instanceID: 3420}
+    - Class: 114
+      Script: {instanceID: 3450}
+    - Class: 114
+      Script: {instanceID: 3510}
+    - Class: 114
+      Script: {instanceID: 3562}
+    - Class: 114
+      Script: {instanceID: 3616}
+    - Class: 114
+      Script: {instanceID: 3668}
+    - Class: 114
+      Script: {instanceID: 3726}
+    - Class: 114
+      Script: {instanceID: 3786}
+    - Class: 114
+      Script: {instanceID: 3790}
+    - Class: 114
+      Script: {instanceID: 3808}
+    - Class: 114
+      Script: {instanceID: 3852}
+    - Class: 114
+      Script: {instanceID: 4112}
+    - Class: 114
+      Script: {instanceID: 4342}
+    - Class: 114
+      Script: {instanceID: 4376}
+    - Class: 114
+      Script: {instanceID: 4404}
+    - Class: 114
+      Script: {instanceID: 4412}
+    - Class: 114
+      Script: {instanceID: 4426}
+    - Class: 114
+      Script: {instanceID: 4558}
+    - Class: 114
+      Script: {instanceID: 4676}
+    - Class: 114
+      Script: {instanceID: 4780}
+    - Class: 114
+      Script: {instanceID: 4804}
+    - Class: 114
+      Script: {instanceID: 4834}
+    - Class: 114
+      Script: {instanceID: 4842}
+    - Class: 114
+      Script: {instanceID: 4910}
+    - Class: 114
+      Script: {instanceID: 4934}
+    - Class: 114
+      Script: {instanceID: 5150}
+    - Class: 114
+      Script: {instanceID: 5164}
+    - Class: 114
+      Script: {instanceID: 5194}
+    - Class: 114
+      Script: {instanceID: 5536}
+    - Class: 114
+      Script: {instanceID: 5546}
+    - Class: 114
+      Script: {instanceID: 5810}
+    - Class: 114
+      Script: {instanceID: 5952}
+    - Class: 114
+      Script: {instanceID: 6038}
+    - Class: 114
+      Script: {instanceID: 6188}
+    - Class: 114
+      Script: {instanceID: 6300}
+    - Class: 114
+      Script: {instanceID: 6402}
+    - Class: 114
+      Script: {instanceID: 6436}
+    - Class: 114
+      Script: {instanceID: 6450}
+    - Class: 114
+      Script: {instanceID: 6522}
+    - Class: 114
+      Script: {instanceID: 6542}
+    - Class: 114
+      Script: {instanceID: 6558}
+    - Class: 114
+      Script: {instanceID: 6742}
+    - Class: 114
+      Script: {instanceID: 7012}
+    - Class: 114
+      Script: {instanceID: 7134}
+    - Class: 114
+      Script: {instanceID: 7168}
+    - Class: 114
+      Script: {instanceID: 7216}
+    - Class: 114
+      Script: {instanceID: 7246}
+    - Class: 114
+      Script: {instanceID: 7386}
+    - Class: 114
+      Script: {instanceID: 7422}
+    - Class: 114
+      Script: {instanceID: 7430}
+    - Class: 114
+      Script: {instanceID: 7510}
+    - Class: 114
+      Script: {instanceID: 7546}
+    - Class: 114
+      Script: {instanceID: 7726}
+    - Class: 114
+      Script: {instanceID: 7758}
+    - Class: 114
+      Script: {instanceID: 7850}
+    - Class: 114
+      Script: {instanceID: 7966}
+    - Class: 114
+      Script: {instanceID: 8052}
+    - Class: 114
+      Script: {instanceID: 8510}
+    - Class: 114
+      Script: {instanceID: 8518}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: b3a5cee6272fa58e706fa66b7871ae22
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetZ
+  - hash:
+      serializedVersion: 2
+      Hash: 84399ae911c82f1c5bf59e06ddce80dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayFromRandomFrameMecanim
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: c87792ac32a52c057b3d038728b9af92
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BossSceneController
+  - hash:
+      serializedVersion: 2
+      Hash: 0274d6a8f834bc2dbe148f1c59cac38b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectBounce
+  - hash:
+      serializedVersion: 2
+      Hash: 2758e7f9aa40772218c1b2dda73c9e8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TinkEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 1734a9ba283dd54d97e035d3d7674178
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EventRegister
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9ccd51bfca52bb3836ace94aa84b2634
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraLockArea
+  - hash:
+      serializedVersion: 2
+      Hash: a3b548a897f8997cabbe27315b260153
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Breakable
+  - hash:
+      serializedVersion: 2
+      Hash: 71258c153b5e0296ac7572879f72ba79
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TransitionPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 01e46bf6c1d691230faddfee02427269
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WaveEffectControl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ReduceParticleEffects
+  - hash:
+      serializedVersion: 2
+      Hash: a84ce86ae8b407b49d3d0eb8ef0708ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MusicRegion
+  - hash:
+      serializedVersion: 2
+      Hash: fb6ccd1509eaa2abd6717bbb1b6080f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayMakerFSM
+  - hash:
+      serializedVersion: 2
+      Hash: f555b74eb3c6cafe5a8124442b140a99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: tk2dSprite
+  - hash:
+      serializedVersion: 2
+      Hash: f4aa1dc74e09476aa303639bc3095f67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: tk2dSpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 0bc99482b79bf37374e47b95b082d329
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: tk2dTileMap
+  - hash:
+      serializedVersion: 2
+      Hash: 164221013889a03b3422d30debb35460
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NonBouncer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Roof
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayMakerFixedUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayMakerUnity2d
+  - hash:
+      serializedVersion: 2
+      Hash: 3eead3a5fa2d7d2cbcda1df11572d140
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PersistentBoolItem
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: c3646cfe091407e195452a6f682bf503
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HazardRespawnMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 164221013889a03b3422d30debb35460
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NonThunker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 3d235846ba00f2d9b96338afc7b184bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0388253ae9b149c6fc75df951e002984
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpinSelf
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BlurPlane
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NonSlider
+  platform: 5
+  scenePathNames:
+  - Assets/Scene/gg zemer.unity
+  playerPath: C:/Users/Saleh/Downloads/BLAHHH/BLAHHH/AssetBundles/StandaloneWindows/ggarenazemer
