@@ -20179,10 +20179,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 683f3fde812dccf43a5fc5e6b3e73a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraXMin: 21.6
-  cameraYMin: 31.37
+  cameraXMin: 22.3
+  cameraYMin: 31.6
   cameraXMax: 33.83
-  cameraYMax: 31.37
+  cameraYMax: 31.6
   preventLookUp: 1
   preventLookDown: 1
   maxPriority: 0
@@ -54247,10 +54247,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 683f3fde812dccf43a5fc5e6b3e73a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraXMin: 32.54
-  cameraYMin: 31.37
+  cameraXMin: 22.3
+  cameraYMin: 31.6
   cameraXMax: 32.54
-  cameraYMax: 31.37
+  cameraYMax: 31.6
   preventLookUp: 1
   preventLookDown: 1
   maxPriority: 1
