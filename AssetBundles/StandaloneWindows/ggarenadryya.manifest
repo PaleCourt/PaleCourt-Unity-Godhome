@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 472966329
+CRC: 2677386007
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -213,4 +213,4 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Scene/gg dryya.unity
 Dependencies:
-- C:/Users/Saleh/Downloads/BLAHHH/BLAHHH/AssetBundles/StandaloneWindows/ggarenadep
+- C:/Users/Saleh/Desktop/Progs/HollowKnight/Unity/PaleCourt-Godhome/AssetBundles/StandaloneWindows/ggarenadep

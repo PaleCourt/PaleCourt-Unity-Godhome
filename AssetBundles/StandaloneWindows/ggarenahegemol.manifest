@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2549745335
+CRC: 3958610158
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -229,4 +229,4 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Scene/gg hegemol.unity
 Dependencies:
-- C:/Users/Saleh/Downloads/BLAHHH/BLAHHH/AssetBundles/StandaloneWindows/ggarenadep
+- C:/Users/Saleh/Desktop/Progs/HollowKnight/Unity/PaleCourt-Godhome/AssetBundles/StandaloneWindows/ggarenadep

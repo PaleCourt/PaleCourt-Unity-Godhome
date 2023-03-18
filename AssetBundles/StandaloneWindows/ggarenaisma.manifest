@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3337997299
+CRC: 1127292613
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -207,4 +207,4 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Scene/gg isma.unity
 Dependencies:
-- C:/Users/Saleh/Downloads/BLAHHH/BLAHHH/AssetBundles/StandaloneWindows/ggarenadep
+- C:/Users/Saleh/Desktop/Progs/HollowKnight/Unity/PaleCourt-Godhome/AssetBundles/StandaloneWindows/ggarenadep

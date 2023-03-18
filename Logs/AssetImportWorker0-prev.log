@@ -11,19 +11,19 @@ C:\Program Files\Unity2020\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Saleh/Downloads/BLAHHH/BLAHHH
+C:/Users/Saleh/Desktop/Progs/HollowKnight/Unity/PaleCourt-Godhome
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53388
-Successfully changed project path to: C:/Users/Saleh/Downloads/BLAHHH/BLAHHH
-C:/Users/Saleh/Downloads/BLAHHH/BLAHHH
+50308
+Successfully changed project path to: C:/Users/Saleh/Desktop/Progs/HollowKnight/Unity/PaleCourt-Godhome
+C:/Users/Saleh/Desktop/Progs/HollowKnight/Unity/PaleCourt-Godhome
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 104.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity2020/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Saleh/Downloads/BLAHHH/BLAHHH/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Saleh/Desktop/Progs/HollowKnight/Unity/PaleCourt-Godhome/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,55 +35,71 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity2020/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity2020/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity2020/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity2020/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity2020/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity2020/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001312 seconds.
+Registered in 0.003515 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 37.09 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 80.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.714 seconds
+- Completed reload, in  1.468 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000644 seconds.
+Registered in 0.001147 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.572 seconds
+- Completed reload, in  1.285 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.5 MB.
-System memory in use after: 112.6 MB.
+Unloading 3567 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.5 MB.
+System memory in use after: 113.7 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4011.
-Total: 2.093600 ms (FindLiveObjects: 0.321900 ms CreateObjectMapping: 0.111900 ms MarkObjects: 1.540500 ms  DeleteObjects: 0.117200 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4000.
+Total: 3.161900 ms (FindLiveObjects: 0.735800 ms CreateObjectMapping: 0.170800 ms MarkObjects: 2.100100 ms  DeleteObjects: 0.153100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/AssetBundles-Browser-1.7.0/Tests
-  artifactKey: Guid(4298453e3c8ec6c4a9a53395b8921437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetBundles-Browser-1.7.0/Tests using Guid(4298453e3c8ec6c4a9a53395b8921437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b8d1459d1071a13172819262cc097f') in 0.015201 seconds
-  Import took 0.020548 seconds .
+  path: Assets/Scene/gg zemer.unity
+  artifactKey: Guid(ac1adffc991dbe44f94e5e5d6bdc4b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene/gg zemer.unity using Guid(ac1adffc991dbe44f94e5e5d6bdc4b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5da448f3d0679c6e37af84e73aba998') in 0.053705 seconds
+  Import took 0.064416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Resources/UIBlendScreen.mat
+  artifactKey: Guid(26fbb3ab55bf7fa4ab1c98e38a80b46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIBlendScreen.mat using Guid(26fbb3ab55bf7fa4ab1c98e38a80b46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e41fa64549b823e14dd7da21e5b77ef') in 0.301020 seconds
+  Import took 0.311706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/Resources/UIBlendLighten.mat
+  artifactKey: Guid(8295df9a6333d954985ecbf634993f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIBlendLighten.mat using Guid(8295df9a6333d954985ecbf634993f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0c556cc810bc57a3a5d5bdd3a8cb6e') in 0.026852 seconds
+  Import took 0.036749 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

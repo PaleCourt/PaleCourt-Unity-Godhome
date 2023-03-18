@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 395768846
+CRC: 1834510985
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8afec3a4bce4c2e82141b4b31c4c4de2
+    Hash: 2ffc1ffeb1e5b0c8d26cd4db50ddb21f
   TypeTreeHash:
     serializedVersion: 2
     Hash: f37a3fc2d65f6b420146e36c05e31544
@@ -229,4 +229,4 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Scene/gg zemer.unity
 Dependencies:
-- C:/Users/Saleh/Downloads/BLAHHH/BLAHHH/AssetBundles/StandaloneWindows/ggarenadep
+- C:/Users/Saleh/Desktop/Progs/HollowKnight/Unity/PaleCourt-Godhome/AssetBundles/StandaloneWindows/ggarenadep
