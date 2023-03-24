@@ -8424,7 +8424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &308853521
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11013,7 +11013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391529651}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.69, y: 6.21, z: 3.05}
+  m_LocalPosition: {x: 89.69, y: 6.3, z: 3.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11371,7 +11371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408051797}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 76.55, y: 5.95, z: -2.53}
+  m_LocalPosition: {x: 76.55, y: 6.3, z: -2.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11707,7 +11707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427106533}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 985142050}
@@ -16220,7 +16220,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586429334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 83.9, y: 5.95, z: -2.53}
+  m_LocalPosition: {x: 83.9, y: 6.3, z: -2.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -16502,7 +16502,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &605987430
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18336,7 +18336,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669424019}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 69.33, y: 6.21, z: 3.05}
+  m_LocalPosition: {x: 69.33, y: 6.3, z: 3.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -19127,7 +19127,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692218822}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 76.68, y: 6.21, z: 3.05}
+  m_LocalPosition: {x: 76.68, y: 6.3, z: 3.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -32296,7 +32296,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981161755}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 83.85, y: 6.11, z: 3.15}
+  m_LocalPosition: {x: 83.85, y: 6.3, z: 3.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -39549,7 +39549,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085396878}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 61.49, y: 6.21, z: 3.05}
+  m_LocalPosition: {x: 61.49, y: 6.3, z: 3.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -40634,7 +40634,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113024328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.99, y: 5.95, z: -2.53}
+  m_LocalPosition: {x: 89.99, y: 6.3, z: -2.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -52611,7 +52611,7 @@ MonoBehaviour:
   respawnMarker: {fileID: 2082498401}
   atmosSnapshot: {fileID: 0}
   enviroSnapshot: {fileID: 0}
-  actorSnapshot: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+  actorSnapshot: {fileID: 0}
   musicSnapshot: {fileID: 0}
   sceneLoadVisualization: 1
   customFade: 1
@@ -58323,7 +58323,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: UnityEngine.Audio.AudioMixerSnapshot
-          value: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+          value: {fileID: 0}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -58690,7 +58690,7 @@ MonoBehaviour:
           showInInspector: 1
           networkSync: 0
           typeName: UnityEngine.Audio.AudioMixerSnapshot
-          value: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+          value: {fileID: 0}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -58955,7 +58955,7 @@ MonoBehaviour:
           showInInspector: 1
           networkSync: 0
           typeName: UnityEngine.Audio.AudioMixerSnapshot
-          value: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+          value: {fileID: 0}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -59249,7 +59249,7 @@ MonoBehaviour:
           showInInspector: 1
           networkSync: 0
           typeName: UnityEngine.Audio.AudioMixerSnapshot
-          value: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+          value: {fileID: 0}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -59347,7 +59347,7 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         typeName: UnityEngine.Audio.AudioMixerSnapshot
-        value: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+        value: {fileID: 0}
       - useVariable: 1
         name: MusicCue
         tooltip: 
@@ -59368,7 +59368,7 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         typeName: UnityEngine.Audio.AudioMixerSnapshot
-        value: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+        value: {fileID: 0}
       - useVariable: 1
         name: StatueRemixMusicCue
         tooltip: 
@@ -59382,7 +59382,7 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         typeName: UnityEngine.Audio.AudioMixerSnapshot
-        value: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+        value: {fileID: 0}
       materialVariables: []
       textureVariables: []
       arrayVariables: []
@@ -59607,10 +59607,10 @@ MonoBehaviour:
   musicSnapshot: {fileID: 0}
   musicDelayTime: 0
   musicTransitionTime: 2
-  atmosSnapshot: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
-  enviroSnapshot: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
-  actorSnapshot: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
-  shadeSnapshot: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+  atmosSnapshot: {fileID: 0}
+  enviroSnapshot: {fileID: 0}
+  actorSnapshot: {fileID: 0}
+  shadeSnapshot: {fileID: 0}
   transitionTime: 0.5
   borderPrefab: {fileID: 1855295640334565, guid: 254b62089310c1142a3924ddffe02da1, type: 3}
   manualMapTrigger: 0
@@ -61352,7 +61352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641363577}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 67.14, y: 11.03, z: 32.42188}
+  m_LocalPosition: {x: 67.14, y: 11.8, z: 32.42188}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1780109933}
@@ -65973,7 +65973,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728173255}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 60.98, y: 5.95, z: -2.53}
+  m_LocalPosition: {x: 60.98, y: 6.3, z: -2.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -68683,7 +68683,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829412802}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1175157046}
@@ -70386,7 +70386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897670772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 68.61, y: 5.95, z: -2.53}
+  m_LocalPosition: {x: 68.61, y: 6.3, z: -2.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -75775,7 +75775,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2110396740
 SpriteRenderer:
   m_ObjectHideFlags: 0
