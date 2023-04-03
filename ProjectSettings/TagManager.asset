@@ -10,6 +10,11 @@ TagManager:
   - Geo
   - Journal Up Msg
   - HeroLight
+  - Battle Gate
+  - Battle Scene
+  - Charm Get Msg
+  - Relic Get Msg
+  - HeroWalkable
   layers:
   - Default
   - TransparentFX
