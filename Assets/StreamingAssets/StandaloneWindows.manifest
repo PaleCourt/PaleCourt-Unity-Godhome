@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1327266361
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ggarenadep
+      Dependencies: {}
+    Info_1:
+      Name: ggarenadryya
+      Dependencies:
+        Dependency_0: ggarenadep
+    Info_2:
+      Name: ggarenazemer
+      Dependencies:
+        Dependency_0: ggarenadep
+    Info_3:
+      Name: ggarenaisma
+      Dependencies:
+        Dependency_0: ggarenadep
+    Info_4:
+      Name: ggarenahegemol
+      Dependencies:
+        Dependency_0: ggarenadep
